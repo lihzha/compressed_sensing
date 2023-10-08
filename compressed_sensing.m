@@ -1,3 +1,5 @@
+// A demo of the algorithm
+
 img_path = 'C:\Users\CharlieHan\Desktop\bigtiger.jpeg';
 img = imread(img_path);
 img_re = imresize(img, [50 NaN], 'bilinear');
